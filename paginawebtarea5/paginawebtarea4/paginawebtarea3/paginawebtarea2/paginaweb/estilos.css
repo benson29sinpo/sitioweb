@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(245, 24, 226);
+}
+article section div {
+    background-color: #a509aa;
+    width: 75%;
+    float: left;
+}
+aside div{
+    width: 24%;
+    float: left;
+    background-color: #f0f349;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+article section div img {
+    width: 49%;
+  height: auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #ffffff;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+  font-size: 24px;
+}
+
+li a {
+  display: block;
+  color: #b90bab;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #666464;
+}
+
+li a.active {
+  color: white;
+  background-color: #089620;
+}
+
+p {
+     font-size: 24px;
+}
